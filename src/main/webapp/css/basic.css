@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Museo300Regular';
+    src: url('Museo300-Regular-webfont.eot');
+    src: url('Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('Museo300-Regular-webfont.woff') format('woff'),
+    url('Museo300-Regular-webfont.ttf') format('truetype'),
+    url('Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo700Regular';
+    src: url('Museo700-Regular-webfont.eot');
+    src: url('Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('Museo700-Regular-webfont.woff') format('woff'),
+    url('Museo700-Regular-webfont.ttf') format('truetype'),
+    url('Museo700-Regular-webfont.svg#Museo700Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuseoSlab500Regular';
+    src: url('Museo_Slab_500-webfont.eot');
+    src: url('Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+    url('Museo_Slab_500-webfont.woff') format('woff'),
+    url('Museo_Slab_500-webfont.ttf') format('truetype'),
+    url('Museo_Slab_500-webfont.svg#MuseoSlab500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.yui3-js-enabled {
+    background-color: #E2E2E2;
+    background: url(../img/pattern_040.gif) repeat;
+}
+
+
+.yui3-skin-sam .yui3-datatable-caption {
+    color: #fff;
+    font-family: 'MuseoSlab500Regular';
+    font-size: 36px;
+    font-style: normal;
+    padding: 25px 0;
+    text-align: left;
+}
+
+.yui3-datatable-message-content {
+    color: #e4e4e4;
+    font-weight: bold;
+}
+
+.yui3-skin-sam .yui3-datatable-header {
+    background: #a9db80; /* Old browsers */
+    background: -moz-linear-gradient(top, #a9db80 0%, #96c56f 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #a9db80 0%, #96c56f 100%);
+    color: #FFF;
+    font-family: Museo700Regular;
+    font-size: 20px;
+    font-weight: normal;
+    height: 30px;
+    padding-top: 15px;
+    text-align: center;
+    text-shadow: 0 0 0 #CACACA;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.yui3-skin-sam .yui3-datatable-sort-indicator {
+    bottom: 1.3ex;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 7px;
+}
+
+.yui3-skin-sam .yui3-datatable-columns .yui3-datatable-sorted, .yui3-skin-sam .yui3-datatable-sortable-column:hover {
+    background: #8ed058; /* Old browsers */
+    background: -moz-linear-gradient(top, #8ed058 0%, #7eb84e 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #8ed058 0%, #7eb84e 100%);
+}
+
+
+
+
+.yui3-skin-sam .yui3-datatable-table {
+    border: 1px solid #CBCBCB;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: 'Museo300Regular';
+    font-size: 18px;
+    margin: 5px auto 40px auto;
+    padding: 0;
+    -webkit-box-shadow: 1px 2px 4px 2px #3F3F3F;
+    -moz-box-shadow: 1px 2px 4x 2px #3F3F3F;
+    box-shadow: 1px 2px 4px 2px #3F3F3F;
+}
+
+.yui3-skin-sam .yui3-datatable-data .yui3-datatable-even .yui3-datatable-sorted {
+    background-color: #FFF;
+}
+
+.yui3-skin-sam .yui3-datatable-data .yui3-datatable-odd 
+.yui3-datatable-sorted,
+.yui3-skin-sam .yui3-datatable-odd .yui3-datatable-cell{
+    background-color: #CF9;
+}
+
+.yui3-skin-sam .yui3-datatable-cell {
+    height: 40px;
+    padding: 5px 15px;
+}
+
+
+.yui3-datatable-col-id,
+.yui3-datatable-col-weighted,
+.yui3-datatable-col-discipline1,
+.yui3-datatable-col-discipline2,
+.yui3-datatable-col-discipline3 {
+    text-align: center;
+}
+
+.yui3-datatable-col-discipline1,
+.yui3-datatable-col-discipline2,
+.yui3-datatable-col-discipline3 {
+    width: 100px;
+}
+
+	 

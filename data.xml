@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student id="100">
+        <fullName>John Doe</fullName>
+        <grades>
+            <grade>
+                <discipline>Java Programming</discipline>
+                <weight>0.2</weight>
+                <value>5</value>
+            </grade>
+            <grade>
+                <discipline>Object-oriented design</discipline>
+                <weight>0.4</weight>
+                <value>5</value>
+            </grade>
+            <grade>
+                <discipline>Web Application Development</discipline>
+                <weight>0.4</weight>
+                <value>5</value>
+            </grade>
+        </grades>
+    </student>
+    <student id="200">
+        <fullName>Kevin Shultz</fullName>
+        <grades>
+            <grade>
+                <discipline>Java Programming</discipline>
+                <weight>0.2</weight>
+                <value>3</value>
+            </grade>
+            <grade>
+                <discipline>Object-oriented design</discipline>
+                <weight>0.4</weight>
+                <value>5</value>
+            </grade>
+            <grade>
+                <discipline>Web Application Development</discipline>
+                <weight>0.4</weight>
+                <value>3</value>
+            </grade>
+        </grades>
+    </student>
+    <student id="300">
+        <fullName>Martin Bolich</fullName>
+        <grades>
+            <grade>
+                <discipline>Java Programming</discipline>
+                <weight>0.2</weight>
+                <value>5</value>
+            </grade>
+            <grade>
+                <discipline>Object-oriented design</discipline>
+                <weight>0.4</weight>
+                <value>4</value>
+            </grade>
+            <grade>
+                <discipline>Web Application Development</discipline>
+                <weight>0.4</weight>
+                <value>4</value>
+            </grade>
+        </grades>
+    </student>
+    <student id="400">
+        <fullName>Eliza Rush</fullName>
+        <grades>
+            <grade>
+                <discipline>Java Programming</discipline>
+                <weight>0.2</weight>
+                <value>3</value>
+            </grade>
+            <grade>
+                <discipline>Object-oriented design</discipline>
+                <weight>0.4</weight>
+                <value>4</value>
+            </grade>
+            <grade>
+                <discipline>Web Application Development</discipline>
+                <weight>0.4</weight>
+                <value>4</value>
+            </grade>
+        </grades>
+    </student>
+    <student id="500">
+        <fullName>Anton Mezenin</fullName>
+        <grades>
+            <grade>
+                <discipline>Java Programming</discipline>
+                <weight>0.2</weight>
+                <value>5</value>
+            </grade>
+            <grade>
+                <discipline>Object-oriented design</discipline>
+                <weight>0.4</weight>
+                <value>4</value>
+            </grade>
+            <grade>
+                <discipline>Web Application Development</discipline>
+                <weight>0.4</weight>
+                <value>4</value>
+            </grade>
+        </grades>
+    </student>
+    <student id="600">
+        <fullName>Peter Kravitz</fullName>
+        <grades>
+            <grade>
+                <discipline>Java Programming</discipline>
+                <weight>0.2</weight>
+                <value>3</value>
+            </grade>
+            <grade>
+                <discipline>Object-oriented design</discipline>
+                <weight>0.4</weight>
+                <value>4</value>
+            </grade>
+            <grade>
+                <discipline>Web Application Development</discipline>
+                <weight>0.4</weight>
+                <value>2</value>
+            </grade>
+        </grades>
+    </student>
+        <student id="700">
+        <fullName>Jannet Riz</fullName>
+        <grades>
+            <grade>
+                <discipline>Java Programming</discipline>
+                <weight>0.2</weight>
+                <value>2</value>
+            </grade>
+            <grade>
+                <discipline>Object-oriented design</discipline>
+                <weight>0.4</weight>
+                <value>2</value>
+            </grade>
+            <grade>
+                <discipline>Web Application Development</discipline>
+                <weight>0.4</weight>
+                <value>2</value>
+            </grade>
+        </grades>
+    </student>
+        <student id="800">
+        <fullName>Maksim Gorev</fullName>
+        <grades>
+            <grade>
+                <discipline>Java Programming</discipline>
+                <weight>0.2</weight>
+                <value>2</value>
+            </grade>
+            <grade>
+                <discipline>Object-oriented design</discipline>
+                <weight>0.4</weight>
+                <value>5</value>
+            </grade>
+            <grade>
+                <discipline>Web Application Development</discipline>
+                <weight>0.4</weight>
+                <value>3</value>
+            </grade>
+        </grades>
+    </student>
+        <student id="900">
+        <fullName>Elizabeth Tamm</fullName>
+        <grades>
+            <grade>
+                <discipline>Java Programming</discipline>
+                <weight>0.2</weight>
+                <value>3</value>
+            </grade>
+            <grade>
+                <discipline>Object-oriented design</discipline>
+                <weight>0.4</weight>
+                <value>4</value>
+            </grade>
+            <grade>
+                <discipline>Web Application Development</discipline>
+                <weight>0.4</weight>
+                <value>1</value>
+            </grade>
+        </grades>
+    </student>
+</students>
+
