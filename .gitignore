@@ -139,3 +139,7 @@ Desktop.ini
 
 !/target/h2db/*
 !/target/h2db/
+
+*.back
+allure-*
+video
