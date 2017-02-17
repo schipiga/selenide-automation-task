@@ -64,7 +64,7 @@ public class ParametrizedPresetDataTest extends DestructiveTest {
     /**
      * Test that student weighted average grade is calculated and presented correct.
      *
-     * @throws JAXBException
+     * @throws JAXBException if not possible to store XML data to `data.xml`
      */
     @Test
     public void StudentWeightedAverageCorrect() throws JAXBException {
@@ -81,7 +81,7 @@ public class ParametrizedPresetDataTest extends DestructiveTest {
      *
      * @param studentID student ID
      *
-     * @throws JAXBException
+     * @throws JAXBException if not possible to store XML data to `data.xml`
      */
     @Step
     private void generateStudentWithId(long studentID) throws JAXBException {

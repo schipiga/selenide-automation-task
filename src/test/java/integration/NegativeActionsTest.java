@@ -21,7 +21,7 @@ public class NegativeActionsTest extends DestructiveTest {
      * Test that project works correct and no students are present in the table,
      * if `data.xml` is removed.
      *
-     * @throws IOException
+     * @throws IOException if not possible to delete `data.xml`
      */
     @Test
     public void StudentsTableContainsNoRowsWhenDataFileAbsent() throws IOException {
@@ -35,7 +35,7 @@ public class NegativeActionsTest extends DestructiveTest {
      * Test that project works correct and no students are present in the table,
      * if `data.xml` is empty.
      *
-     * @throws FileNotFoundException
+     * @throws FileNotFoundException if not possible to open `data.xml`
      */
     @Test
     public void StudentsTableContainsNoRowsWhenDataFileEmpty() throws FileNotFoundException {
@@ -49,7 +49,7 @@ public class NegativeActionsTest extends DestructiveTest {
      * Test that project works correct and no students are present in the table,
      * if `data.xml` has invalid XML format.
      *
-     * @throws FileNotFoundException
+     * @throws FileNotFoundException if not possible to open `data.xml`
      */
     @Test
     public void StudentsTableContainsNoRowsWhenDataFileInvalidXML() throws FileNotFoundException {
@@ -64,7 +64,7 @@ public class NegativeActionsTest extends DestructiveTest {
      *
      * @param content `data.xml` content
      *
-     * @throws FileNotFoundException
+     * @throws FileNotFoundException if not possible to open `data.xml`
      */
     @Step
     private void rewriteDataFileWith(String content) throws FileNotFoundException {

@@ -37,7 +37,7 @@ public abstract class DestructiveTest extends BaseTest {
     /**
      * Tears down test each time after test execution.
      *
-     * @throws IOException
+     * @throws IOException if not possible to restore `data.xml` from backup
      */
     @After
     public void tearDown() throws IOException {
@@ -47,9 +47,9 @@ public abstract class DestructiveTest extends BaseTest {
     /**
      * Rewrites `data.xml` content with valid XML, according to test data.
      *
-     * @param students students collection.
+     * @param students students collection
      *
-     * @throws JAXBException
+     * @throws JAXBException if not possible to create marshaller for XML
      */
     protected void setStudentsData(StudentList students) throws JAXBException {
         JAXBContext jc = JAXBContext.newInstance(StudentList.class);

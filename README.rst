@@ -2,7 +2,7 @@
 Annotation
 ==========
 
-This source code contains integration tests for **Knowit** automation task.
+This source code contains integration tests for web application.
 
 ============
 Used toolkit
@@ -50,10 +50,10 @@ Then new browser window will be opened and navigation to local URL with report h
 If navigation doesn't happen by default, you can open it manually http://localhost:20000/.
 
 ===============
-Choice of tests
+Single test run
 ===============
 
-To specify a separated test you can use command option ``-Dtest=ClassName#testName`` like that::
+To specify a single test to run you can use command option ``-Dtest=ClassName#testName`` like that::
 
     $  mvn test -Dtest=OriginalDataTest#studentsCountCorrespondData
 

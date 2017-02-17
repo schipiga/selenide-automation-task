@@ -33,7 +33,7 @@ public class PresetDataTest extends DestructiveTest {
     /**
      * Test that students are sorted by grade than by name.
      *
-     * @throws JAXBException
+     * @throws JAXBException if not possible to store XML data to `data.xml`
      */
     @Test
     public void twoStudentsSortedByGrade() throws JAXBException {
@@ -47,7 +47,7 @@ public class PresetDataTest extends DestructiveTest {
     /**
      * Test that students are sorted by name if their grades are equal.
      *
-     * @throws JAXBException
+     * @throws JAXBException if not possible to store XML data to `data.xml`
      */
     @Test
     public void twoStudentsSortedByName() throws JAXBException {
@@ -61,7 +61,7 @@ public class PresetDataTest extends DestructiveTest {
     /**
      * Test that for each of two students table row contains correct student data.
      *
-     * @throws JAXBException
+     * @throws JAXBException if not possible to store XML data to `data.xml`
      */
     @Test
     public void studentRowContainsCorrectStudentData() throws JAXBException {
@@ -95,7 +95,7 @@ public class PresetDataTest extends DestructiveTest {
      *
      * @param withSameGrades flat to indicate should create students with the same grades or no
      *
-     * @throws JAXBException
+     * @throws JAXBException if not possible to store XML data to `data.xml`
      */
     @Step("Generate two students (with the same grades: {0})")
     private void generateTwoStudents(boolean withSameGrades) throws JAXBException {

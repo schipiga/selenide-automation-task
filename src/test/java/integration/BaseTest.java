@@ -42,7 +42,7 @@ public abstract class BaseTest {
     /**
      * Sets up tests one time per class.
      *
-     * @throws IOException
+     * @throws IOException if not possible to create `data.xml.back`
      */
     @BeforeClass
     public static void SetUpClass() throws IOException {
@@ -85,7 +85,7 @@ public abstract class BaseTest {
      *
      * @return file `data.xml`
      *
-     * @throws IOException
+     * @throws IOException if not possible to open `config.properties`
      */
     public static File getDataFile() throws IOException {
         InputStream is = OriginalDataTest.class.getResourceAsStream("/config.properties");
